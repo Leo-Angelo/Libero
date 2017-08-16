@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel = "stylesheet"href="style.css">-->
+    <link rel="stylesheet" href="assets/stylesheets/screen.css">
+</head>
+<body>
+<header id="header">
+    <div class="bar">
+        <div class="bar">
+            <div class="bar-logo"></div>
+            <div class="bar-logo"></div>
+            <div class="bar-logo"></div>
+        </div>
+        <div id="bar1">
+            <img src="libero.png" style="height: auto; width: 150%;">
+        </div>
+    </div>
+    <ul id="bar2">
+        <li class="list-head"><a class ="head-decor" href="#">HOME</a></li>
+        <li class="list-head"><a class ="head-decor" href="#">NEWS</a>  </li>
+        <li class="list-head"><a class ="head-decor" href="#">EVENTS</a> </li>
+        <li class="list-head"> <a class ="head-decor"  href="#">WORLD</a> </li>
+    </ul>
+
+    <div class="mag">
+        <form class="searchbox">
+            <input type="search" placeholder="Search.." name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+            <input type="submit" class="searchbox-submit" value="">
+            <span class="searchbox-icon"><img src="Mag.png"></span>
+        </form>
+    </div>
+</header>
+<section id="big-body">
+   <section id="body-left">
+       <form id="form-submit">
+           <div class="how">
+               How do you feel about recycling?
+           </div>
+           <div class="post-code-font">
+               <label for="post">Postcode:</label><br>
+               <input type="text " id="post">
+           </div>
+           <div class="post-code-font">
+               Should the government start enforcing garbage <br>
+               separation and recycling schemes across your area?
+           </div>
+           <div class="survey-buttons"> <!--para sa yes-->
+               <label class="yes-con" for="yes-input">
+                <input id="yes-input" type="radio" name="survey" checked>
+                   <div class="survey-button">
+                       <div class="outer-circle">
+                           <div class="inner-circle"></div>
+                        </div>
+                   <label for="yes-input" class="label">Yes</label>
+                    </div>
+                </label>
+               <label class="no-con" for="no-input">
+                   <input id="no-input" type="radio" name="survey">
+                   <div class="survey-button">
+                       <div class="outer-circle">
+                           <div class="inner-circle"></div>
+                       </div>
+                       <label for="no-input" class="label">No</label>
+                   </div>
+               </label>
+           </div>
+           <div class="post-code-font">
+               <label for="email"> E-mail Address:</label><br>
+               <input type="text" id="email">
+           </div>
+           <div class="post-code-font">
+               <label for="mobile">Mobile Number:</label><br>
+               <input type="text" id="mobile">
+           </div>
+           <input id="submit" type="submit" value="submit">
+       </form>
+   </section>
+    <section id="body-right">
+        <div>
+        <div id="first-image">
+            <div id="phasellus">
+                Phasellus augue sapien
+            </div>
+            <div> <!--first ni nga image sa right-->
+                <div class="blue-line"></div>
+                <div class="image-cont">
+                    <img src="1b.jpeg" style="height: auto; width: 100%">
+                    <div class="opaque-overlay">
+                        <div>Vestibulum sit amet tempor orci</div>
+                        <div class="read-more">
+                            <a href="#" >Read more >></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="phasellus2">
+                    Phasellus augue sapien,
+                    aliquam sit amet mauris
+                </div>
+            </div>
+        </div>
+        <div id="second-image"> <!--2nd ni nga image sa right-->
+            <div class="blue-line"></div>
+            <div class="image-cont">
+                <img src="1c.jpeg" style="height: auto; width: 100%">
+                <div class="opaque-overlay">
+                    <div>Integer consectetur orci ligula</div>
+                    <div class="read-more">
+                        <a href="#" >Read more >></a>
+                    </div>
+                </div>
+            </div>
+            <div class="phasellus2">
+                Sed facilisis volutpat turpis eu viverra
+
+            </div>
+        </div>
+        </div>
+    </section>
+</section>
+
+<footer id="footer"><hr>
+
+    <span id="section1">
+        <ul>
+            <li class="underline"><a class="font" href="#Rutrum">Rutrum</a></li>
+            <li class="lf"><a class="font" href="#Fermentum">Fermentum</a></li>
+            <li class="lf"><a class="font" href="#Neque">Neque</a></li>
+            <li class="lf"><a class="font" href="#Consequat">Consequat</a></li>
+        </ul>
+    </span>
+    <span class="section">
+        <ul>
+        <li class="underline"><a class="font" href="#Malesuada">Malesuada</a></li>
+        <li class="lf"><a class="font" href="#Tellus">Tellus</a></li>
+        <li class="lf"><a class="font" href="#Condimentum">Condimentum</a></li>
+        <li class="lf"><a class="font" href="#Consectetur">Consectetur</a></li>
+        </ul>
+    </span>
+    <span class="section">
+        <ul>
+        <li class="underline"><a class="font" href="#Pellentesque">Pellentesque</a></li>
+        <li class="lf"><a class="font" href="#Habitant">Habitant</a></li>
+        <li class="lf"><a class="font" href="#Morbi">Morbi</a></li>
+        <li class="lf"><a class="font" href="#Tristique">Tristique</a></li>
+        </ul>
+    </span>
+    <span class="section">
+        <ul>
+        <li class="underline"><a class="font" href="#Quisque">Quisque</a></li>
+        <li class="lf"><a class="font" href="#Pharetra">Pharetra</a></li>
+        <li class="lf"><a class="font" href="#Volutpat">Volutpat</a></li>
+        <li class="lf"><a class="font" href="#Tristique">Tristique</a></li>
+        </ul>
+    </span>
+    <span id="section5">
+        <div class="bullet"> <a class="id" href="#">Phasellus</a> </div>
+        <div class="bullet"><a href="#" class="id">Augue</a></div>
+        <div class="bullet"><a href="#" class="id">Sapien</a></div>
+    </span>
+</footer>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
